@@ -1,7 +1,7 @@
 // ✅ Fichier corrigé : server.js (en-tête + connexion uniquement)
 
 import express from 'express';
-import mysql from 'mysql';
+import mysql from 'mysql2';
 import cors from 'cors';
 import dotenv from 'dotenv';
 
